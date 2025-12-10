@@ -1,1 +1,5 @@
-
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+openml==0.15.0  # 用于加载UCI数据集（替代Kaggle，无需手动下载）
+python==3.8~3.11  # 兼容Python 3.8-3.11（避免版本过高/过低）
