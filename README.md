@@ -19,3 +19,9 @@
 
 # 安装依赖包
 pip install -r requirements.txt
+
+lasso-high-dimensional-modeling/
+├── main.py          # 核心实验代码（复现论文中所有实验）
+├── utils.py         # 工具函数（数据加载/指标计算，拆分代码更清晰）
+├── requirements.txt # 依赖包列表（版本兼容，避免报错）
+├── README.md        # 仓库说明（小白友好，含运行步骤+结果解释）
